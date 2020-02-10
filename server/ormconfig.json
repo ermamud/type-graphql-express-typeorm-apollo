@@ -1,0 +1,24 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "estrella11",
+  "database": "notes",
+  "synchronize": false,
+  "logging": true,
+  "entities": [
+    "src/data/entity/**/*.ts"
+  ],
+  "migrations": [
+    "src/data/migration/**/*.ts"
+  ],
+  "subscribers": [
+    "src/data/subscriber/**/*.ts"
+  ],
+  "cli": {
+    "entitiesDir": "src/data/entity",
+    "migrationsDir": "src/data/migration",
+    "subscribersDir": "src/data/subscriber"
+  }
+}
