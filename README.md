@@ -16,6 +16,7 @@ You will find in this Project:
 - well separation between GraphQL resolvers, services and data layer
 - JWT authentication and authorization by resolvers and roles (Refresh token will come soon)
 - TypeORM schema sync is disabled by default, please execute `typeorm schema:sync` in your terminal for creating all the entities in the DB. You might execute as well `typeorm migration:run` for the migration tables
+- Unit Tests cooming soon as well
 
 ## Web
 
