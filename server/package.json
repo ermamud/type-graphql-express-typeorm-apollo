@@ -15,7 +15,7 @@
     "typescript": "3.3.3333"
   },
   "dependencies": {
-    "apollo-server-express": "^2.10.0",
+    "apollo-server-express": "^2.14.2",
     "express": "^4.17.1",
     "graphql": "^14.6.0",
     "graphql-upload": "^10.0.0",
